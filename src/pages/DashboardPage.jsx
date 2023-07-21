@@ -14,7 +14,7 @@ const DashboardPage = () => {
         <div className="flex flex-col gap-4 xxs:items-center">
           <div className="flex xxs:flex-col xxs:gap-2 justify-between items-center w-full">
             <h5>Authors</h5>
-            <div className="flex sm:flex-row sm:justify-between items-center w-full">
+            <div className="flex xxs:flex-col xxs:gap-2 sm:flex-row sm:justify-between items-center w-full">
               <div className="flex gap-2">
                 <h6>Recent</h6>
                 <h6 className="text-blue-400">Post</h6>
@@ -37,7 +37,7 @@ const DashboardPage = () => {
         <div className="flex flex-col gap-4 xxs:items-center">
           <div className="flex xxs:flex-col xxs:gap-2 justify-between items-center w-full">
             <h5>Books</h5>
-            <div className="flex sm:flex-row sm:justify-between items-center w-full">
+            <div className="flex xxs:flex-col xxs:gap-2 sm:flex-row sm:justify-between items-center w-full">
               <div className="flex gap-2">
                 <h6>Recent</h6>
                 <h6 className="text-blue-400">Post</h6>
@@ -60,7 +60,7 @@ const DashboardPage = () => {
         <div className="flex flex-col gap-4 xxs:items-center">
           <div className="flex xxs:flex-col xxs:gap-2 justify-between items-center w-full">
             <h5>Members</h5>
-            <div className="flex sm:flex-row sm:justify-between items-center w-full">
+            <div className="flex xxs:flex-col xxs:gap-2 sm:flex-row sm:justify-between items-center w-full">
               <div className="flex gap-2">
                 <h6>Recent</h6>
                 <h6 className="text-blue-400">Post</h6>
@@ -82,7 +82,7 @@ const DashboardPage = () => {
         <div className="flex flex-col gap-4 xxs:items-center">
           <div className="flex xxs:flex-col xxs:gap-2 justify-between items-center w-full">
             <h5>Publishers</h5>
-            <div className="flex sm:flex-row sm:justify-between items-center w-full">
+            <div className="flex xxs:flex-col xxs:gap-2 sm:flex-row sm:justify-between items-center w-full">
               <div className="flex gap-2">
                 <h6>Recent</h6>
                 <h6 className="text-blue-400">Post</h6>
@@ -105,7 +105,7 @@ const DashboardPage = () => {
         <div className="flex flex-col gap-4 xxs:items-center">
           <div className="flex xxs:flex-col xxs:gap-2 justify-between items-center w-full">
             <h5>Racks</h5>
-            <div className="flex sm:flex-row sm:justify-between items-center w-full">
+            <div className="flex xxs:flex-col xxs:gap-2 sm:flex-row sm:justify-between items-center w-full">
               <div className="flex gap-2">
                 <h6>Recent</h6>
                 <h6 className="text-blue-400">Post</h6>
