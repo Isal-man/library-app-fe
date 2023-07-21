@@ -32,9 +32,9 @@ const Header = () => {
             ["Publishers", "/publishers"],
             ["Racks", "/racks"],
           ].map(([title, link], i) => (
-            <a key={i} href={link} className="b-animation b-wrapper">
+            <NavLink key={i} to={link} className="b-animation b-wrapper">
               {title}
-            </a>
+            </NavLink>
           ))}
         </div>
         <button className="xxs:hidden lg:block">Log Out</button>
@@ -66,13 +66,13 @@ const Header = () => {
               ["Publishers", "/publishers"],
               ["Racks", "/racks"],
             ].map(([title, link], i) => (
-              <a
+              <NavLink
                 key={i}
-                href={link}
+                to={link}
                 className="xxs:hover:bg-black xxs:hover:rounded-lg xxs:w-4/5 xs:w-2/3 xxs:flex xxs:justify-center p-2"
               >
                 {title}
-              </a>
+              </NavLink>
             ))}
             <button>Log Out</button>
           </div>
