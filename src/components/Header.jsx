@@ -59,7 +59,7 @@ const Header = () => {
         onClick={() => setShowSidebar(false)}
       >
         <div
-          className={`slide-in xxs:flex xxs:flex-col xxs:justify-between xxs:p-6 xxs:bg-gradient-to-tr xxs:from-blue-500 xxs:to-cyan-400 xxs:fixed xxs:top-0 xxs:left-0 xxs:h-screen xxs:w-3/4 xxs:rounded-tr-2xl xxs:rounded-br-2xl xxs:text-white`}
+          className={`slide-in xxs:flex xxs:flex-col xxs:justify-around xxs:p-6 xxs:bg-gradient-to-tr xxs:from-blue-500 xxs:to-cyan-400 xxs:fixed xxs:top-0 xxs:left-0 xxs:h-screen xxs:w-3/4 xxs:rounded-tr-2xl xxs:rounded-br-2xl xxs:text-white`}
         >
           <div className="xxs:flex xxs:justify-between xxs:items-center">
             <h5>Menu</h5>
