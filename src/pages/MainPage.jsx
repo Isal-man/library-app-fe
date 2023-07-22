@@ -7,10 +7,10 @@ const MainPage = ({ children }) => {
       <div className="header-wrapper xxs:fixed xxs:w-full ">
         <Header />
       </div>
-      <div className="content-wrapper flex-1 max-w-[1400px] xxs:w-full xxs:h-full xxs:flex xxs:flex-col xxs:gap-4 xxs:items-center xxs:justify-center xxs:overflow-y-visible xxs:mt-8 md:mt-10 lg:mt-12 xxl:mt-16 xxs:mb-20 md:mb-28 lg:mb-32 xxs:p-6">
+      <div className="content-wrapper flex-1 max-w-[1400px] xxs:w-full xxs:h-full xxs:flex xxs:flex-col xxs:gap-4 xxs:items-center xxs:justify-center xxs:overflow-y-visible xxs:mt-8 md:mt-10 lg:mt-12 xxl:mt-16 md:mb-28 lg:mb-32 xxs:p-6">
         {children}
       </div>
-      <div className="footer-wrapper fixed bottom-0 w-full">
+      <div className="footer-wrapper fixed bottom-0 w-full xxs:hidden lg:block">
         <Footer />
       </div>
     </div>

@@ -24,7 +24,13 @@ const Header = () => {
         >
           <AiOutlineMenu />
         </button>
-        <h5 className="text-white">Library App</h5>
+        <h5 className="text-white flex gap-2 items-center">
+          <img
+            src="/logo-library-app.png"
+            className="lg:hidden xxs:inline xxs:w-8 xxs:h-8 xxs:object-cover md:w-12 md:h-14"
+          />
+          Library App
+        </h5>
         <div className="lg:flex md:gap-4 xxs:hidden text-white">
           {[
             ["Dashboard", "/dashboard"],
@@ -39,12 +45,17 @@ const Header = () => {
             </NavLink>
           ))}
         </div>
-        <button className="xxs:hidden lg:block" onClick={() => navigate("/signin")}>Log Out</button>
+        <button
+          className="xxs:hidden lg:block"
+          onClick={() => navigate("/signin")}
+        >
+          Log Out
+        </button>
       </header>
       <div
         className={`${
           showSidebar ? "block" : "hidden"
-        } xxs:fixed xxs:top-0 xxs:h-screen xxs:w-screen xxs:bg-slate-300 xxs:bg-opacity-[0.5] xxs:z-50`}
+        } xxs:fixed xxs:top-0 xxs:h-screen xxs:w-screen xxs:bg-slate-300 xxs:bg-opacity-[0.5] overflow-y-hidden z-50`}
         onClick={() => setShowSidebar(false)}
       >
         <div
