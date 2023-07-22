@@ -7,6 +7,7 @@ import App from './App.jsx'
 
 // css
 import './index.css'
+import 'primeicons/primeicons.css';
 
 // primereact theme
 import "primereact/resources/themes/tailwind-light/theme.css";
