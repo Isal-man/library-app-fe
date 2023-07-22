@@ -8,9 +8,11 @@ import {
   AiOutlineMenu,
   AiOutlineWhatsApp,
 } from "react-icons/ai";
+import { useNavigate } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 
 const Header = () => {
+  const navigate = useNavigate();
   const [showSidebar, setShowSidebar] = useState(false);
 
   return (
@@ -37,7 +39,7 @@ const Header = () => {
             </NavLink>
           ))}
         </div>
-        <button className="xxs:hidden lg:block">Log Out</button>
+        <button className="xxs:hidden lg:block" onClick={() => navigate("/signin")}>Log Out</button>
       </header>
       <div
         className={`${
@@ -74,7 +76,7 @@ const Header = () => {
                 {title}
               </NavLink>
             ))}
-            <button>Log Out</button>
+            <button onClick={() => navigate("/signin")}>Log Out</button>
           </div>
           <div className="xxs:flex xxs:justify-center xxs:gap-4">
             {[
